@@ -1,157 +1,1748 @@
-<!DOCTYPE HTML>
-<!-- Website template by freewebsitetemplates.com -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Law Firm</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduCloud | BCA 5 Cloud Computing (UGCA1936) Notes Portal</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Google Fonts Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    code, pre { font-family: 'Fira Code', monospace; }
+    /* Custom subtle scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 9999px; }
+    .dark ::-webkit-scrollbar-thumb { background: #334155; }
+    @media print {
+      header, aside, .no-print { display: none !important; }
+      main { width: 100% !important; margin: 0 !important; padding: 0 !important; }
+      #notes-article { box-shadow: none !important; border: none !important; }
+    }
+  </style>
 </head>
-<body>
-	<div id="header">
-		<div class="clearfix">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt="LOGO" height="52" width="362"></a>
-			</div>
-			<ul class="navigation">
-				<li class="active">
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="practices.html">Practices</a>
-				</li>
-				<li>
-					<a href="lawyers.html">Our Lawyers</a>
-				</li>
-				<li>
-					<a href="news.html">News</a>
-					<div>
-						<a href="singlepost.html">News Single Post</a>
-					</div>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="contents">
-		<div id="adbox">
-			<div class="clearfix">
-				<img src="images/family-large.jpg" alt="Img" height="382" width="594">
-				<div class="detail">
-					<h1>It’s never easy...<br> When it comes to family.</h1>
-					<p>
-						But we can set<br> everything straight.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="highlight">
-			<div class="clearfix">
-				<div class="testimonial">
-					<h2>Testimonials</h2>
-					<p>
-						&ldquo;Aenean ullamcorper purus vitae nisl tristique sollicitudin. Quisque vestibulum, erat ornare.&rdquo;
-					</p>
-					<span>-John Doe and Jane Doe-</span>
-				</div>
-				<h1>The Manes Winchester Promise</h1>
-				<p>
-					This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
-				</p>
-			</div>
-		</div>
-		<div class="featured">
-			<h2>Why Choose Us?</h2>
-			<ul class="clearfix">
-				<li>
-					<div class="frame1">
-						<div class="box">
-							<img src="images/meeting.jpg" alt="Img" height="130" width="197">
-						</div>
-					</div>
-					<p>
-						<b>Our lawyers</b> Our website templates are created with inspiration, checked for quality and originality.
-					</p>
-					<a href="index.html" class="more">Read More</a>
-				</li>
-				<li>
-					<div class="frame1">
-						<div class="box">
-							<img src="images/handshake.jpg" alt="Img" height="130" width="197">
-						</div>
-					</div>
-					<p>
-						<b>get to know us more</b> Just browse through all our Free Website Templates and ﬁnd what you’re looking for.
-					</p>
-					<a href="index.html" class="more">Read More</a>
-				</li>
-				<li>
-					<div class="frame1">
-						<div class="box">
-							<img src="images/smile.jpg" alt="Img" height="130" width="197">
-						</div>
-					</div>
-					<p>
-						<b>what we offer</b> Join the discussion on our forum and meet other people in the community.
-					</p>
-					<a href="index.html" class="more">Read More</a>
-				</li>
-				<li>
-					<div class="frame1">
-						<div class="box">
-							<img src="images/family-small.jpg" alt="Img" height="130" width="197">
-						</div>
-					</div>
-					<p>
-						<b>get in touch with us</b> And we love the challenge of doing something diferent and something special.
-					</p>
-					<a href="index.html" class="more">Read More</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="footer">
-		<div class="clearfix">
-			<div class="section">
-				<h4>Latest News</h4>
-				<p>
-					This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link.
-				</p>
-			</div>
-			<div class="section contact">
-				<h4>Contact Us</h4>
-				<p>
-					<span>Address:</span> the address city, state 1111
-				</p>
-				<p>
-					<span>Phone:</span> (+20) 000 222 999
-				</p>
-				<p>
-					<span>Email:</span> info@freewebsitetemplates.com
-				</p>
-			</div>
-			<div class="section">
-				<h4>SEND US A MESSAGE</h4>
-				<p>
-					If you're having problems editing this website template, then don't hesitate to ask for help on the Forums.
-				</p>
-				<a href="http://www.freewebsitetemplates.com/misc/contact/" class="subscribe">Click to send us an email</a>
-			</div>
-		</div>
-		<div id="footnote">
-			<div class="clearfix">
-				<div class="connect">
-					<a href="http://freewebsitetemplates.com/go/facebook/" class="facebook"></a><a href="http://freewebsitetemplates.com/go/twitter/" class="twitter"></a><a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus"></a><a href="http://pinterest.com/fwtemplates/" class="pinterest"></a>
-				</div>
-				<p>
-					© Copyright 2023 Manes Winchester. All Rights Reserved.
-				</p>
-			</div>
-		</div>
-	</div>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200">
+
+  <!-- ==================== TOP NAVIGATION HEADER ==================== -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-2 sm:gap-4">
+      
+      <!-- Left: Mobile Menu Button & Brand -->
+      <div class="flex items-center gap-3">
+        <button id="mobile-menu-toggle" type="button" class="lg:hidden p-2 rounded-lg text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none" aria-label="Toggle Syllabus Sidebar">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+
+        <a href="javascript:void(0)" onclick="selectSemester(5)" class="flex items-center gap-2.5 group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+          </div>
+          <div>
+            <div class="font-bold text-lg leading-tight tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
+              EduCloud <span class="text-xs px-2 py-0.5 rounded-full font-medium bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300">BCA Notes</span>
+            </div>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400 font-medium hidden sm:block">UGCA1936 • Cloud Computing</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Center: Search in Topics -->
+      <div class="flex-1 max-w-md mx-2 hidden md:block">
+        <div class="relative">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </span>
+          <input type="text" id="topic-search" placeholder="Search syllabus topics (e.g. SLA, Xen, Grid, AWS)..." 
+            class="w-full pl-9 pr-4 py-1.5 text-sm rounded-lg bg-slate-100 dark:bg-slate-800 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-900 focus:outline-none transition-all placeholder:text-slate-400">
+        </div>
+      </div>
+
+      <!-- Right: Navigation Menu, Dropdown & Actions -->
+      <div class="flex items-center gap-1.5 sm:gap-2">
+        <!-- About Button -->
+        <button id="about-btn" type="button" class="px-3 py-1.5 rounded-lg text-sm font-medium text-slate-700 hover:text-slate-900 hover:bg-slate-100 dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800 transition-colors">
+          About
+        </button>
+
+        <!-- Semester / Notes Dropdown -->
+        <div class="relative inline-block text-left" id="notes-dropdown-container">
+          <button id="notes-dropdown-btn" type="button" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-semibold bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/80 border border-blue-200 dark:border-blue-800/60 transition-colors">
+            <span id="current-sem-label">BCA 5</span>
+            <svg class="w-4 h-4 text-blue-500 transition-transform duration-200" id="dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          
+          <!-- Dropdown Menu items -->
+          <div id="notes-dropdown-menu" class="hidden absolute right-0 mt-2 w-44 rounded-xl bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 py-1.5 z-50 transition-all">
+            <div class="px-3 py-1 text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Select Semester</div>
+            <button onclick="selectSemester(1)" class="w-full text-left px-3 py-2 text-xs font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700/60 flex items-center justify-between">
+              <span>BCA 1 Notes</span>
+              <span class="text-[10px] text-slate-400 bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded">Upcoming</span>
+            </button>
+            <button onclick="selectSemester(2)" class="w-full text-left px-3 py-2 text-xs font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700/60 flex items-center justify-between">
+              <span>BCA 2 Notes</span>
+              <span class="text-[10px] text-slate-400 bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded">Upcoming</span>
+            </button>
+            <button onclick="selectSemester(3)" class="w-full text-left px-3 py-2 text-xs font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700/60 flex items-center justify-between">
+              <span>BCA 3 Notes</span>
+              <span class="text-[10px] text-slate-400 bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded">Upcoming</span>
+            </button>
+            <button onclick="selectSemester(4)" class="w-full text-left px-3 py-2 text-xs font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700/60 flex items-center justify-between">
+              <span>BCA 4 Notes</span>
+              <span class="text-[10px] text-slate-400 bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded">Upcoming</span>
+            </button>
+            <button onclick="selectSemester(5)" class="w-full text-left px-3 py-2 text-xs font-semibold text-blue-600 dark:text-blue-400 bg-blue-50/70 dark:bg-blue-900/30 flex items-center justify-between">
+              <span>BCA 5 (Current)</span>
+              <span class="text-[10px] bg-blue-500 text-white px-1.5 py-0.5 rounded-full font-bold">ACTIVE</span>
+            </button>
+            <button onclick="selectSemester(6)" class="w-full text-left px-3 py-2 text-xs font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700/60 flex items-center justify-between">
+              <span>BCA 6 Notes</span>
+              <span class="text-[10px] text-slate-400 bg-slate-100 dark:bg-slate-700 px-1.5 py-0.5 rounded">Upcoming</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Dark/Light Mode Switcher -->
+        <button id="theme-toggle" type="button" class="p-2 rounded-lg text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Toggle Dark/Light Mode">
+          <svg id="theme-icon-sun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+          <svg id="theme-icon-moon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile search bar (visible on small screens) -->
+    <div class="px-4 pb-2.5 pt-0.5 md:hidden">
+      <div class="relative">
+        <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </span>
+        <input type="text" id="topic-search-mobile" placeholder="Search syllabus topics..." 
+          class="w-full pl-9 pr-3 py-1.5 text-xs rounded-lg bg-slate-100 dark:bg-slate-800 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-900 focus:outline-none">
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN BODY CONTAINER ==================== -->
+  <div class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col lg:flex-row gap-6">
+
+    <!-- BCA 1-4, 6 PLACEHOLDER VIEW (Default hidden, shown on dropdown select) -->
+    <div id="other-sem-view" class="hidden w-full flex-col items-center justify-center py-20 text-center bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm px-4">
+      <div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 rounded-2xl flex items-center justify-center mb-4 text-3xl">
+        📚
+      </div>
+      <h2 id="other-sem-title" class="text-2xl font-bold text-slate-900 dark:text-white mb-2">BCA Semester Notes</h2>
+      <p class="text-slate-600 dark:text-slate-300 max-w-md mx-auto text-sm mb-6">
+        Curriculum notes for this semester are currently being digitized and formatted as per standard university guidelines. 
+        You can explore the complete, live syllabus for <span class="font-semibold text-blue-600 dark:text-blue-400">BCA 5: Cloud Computing (UGCA1936)</span> right now!
+      </p>
+      <button onclick="selectSemester(5)" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-medium text-sm transition-transform active:scale-95 shadow-md shadow-blue-500/25 inline-flex items-center gap-2">
+        <span>Go to BCA 5 Cloud Computing</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+      </button>
+    </div>
+
+    <!-- BCA 5 ACTIVE VIEW (Sidebar + Notes Viewer) -->
+    <div id="bca5-view" class="w-full flex flex-col lg:flex-row gap-6 items-start">
+      
+      <!-- ==================== SIDEBAR: SYLLABUS DIRECTORY ==================== -->
+      <aside id="syllabus-sidebar" class="fixed inset-y-0 left-0 z-30 w-72 lg:w-80 bg-white dark:bg-slate-800 lg:static lg:bg-transparent lg:dark:bg-transparent p-4 lg:p-0 border-r lg:border-r-0 border-slate-200 dark:border-slate-700 lg:block transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out shrink-0 overflow-y-auto max-h-[calc(100vh-5rem)]">
+        
+        <!-- Mobile close button -->
+        <div class="flex items-center justify-between pb-3 mb-2 border-b border-slate-200 dark:border-slate-700 lg:hidden">
+          <span class="font-bold text-sm text-slate-900 dark:text-white">Cloud Computing Syllabus</span>
+          <button id="mobile-menu-close" class="p-1 rounded-md text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-700">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <!-- Course Meta Card -->
+        <div class="bg-gradient-to-br from-blue-900 to-indigo-900 text-white rounded-2xl p-4 shadow-sm mb-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-bold tracking-wider uppercase px-2 py-0.5 bg-blue-500/30 text-blue-200 rounded-md">Course Code</span>
+            <span class="text-xs font-mono font-semibold text-blue-200">UGCA1936</span>
+          </div>
+          <h1 class="font-bold text-base leading-snug">Cloud Computing</h1>
+          <p class="text-xs text-blue-200/80 mt-1">BCA 5th Semester • 4 Units Complete</p>
+          <div class="mt-3 pt-2.5 border-t border-blue-500/30 flex items-center justify-between text-[11px] text-blue-200">
+            <span>16 Comprehensive Topics</span>
+            <span class="bg-emerald-500/20 text-emerald-300 font-medium px-2 py-0.5 rounded-full">Updated</span>
+          </div>
+        </div>
+
+        <!-- Syllabus Tree Navigation -->
+        <nav class="space-y-4" id="syllabus-nav" aria-label="Syllabus Navigation">
+          <!-- Unit I -->
+          <div class="syllabus-unit-group">
+            <div class="flex items-center justify-between px-2 py-1 text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              <span>Unit-I: Foundations & Paradigm</span>
+              <span class="text-[10px] bg-slate-200 dark:bg-slate-700 px-1.5 py-0.2 rounded font-mono">4 Topics</span>
+            </div>
+            <div class="mt-1 space-y-1">
+              <a href="#topic-1" onclick="loadTopic('topic-1')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">1</span>
+                <span>Overview of Computing Paradigm (Trends: Grid, Cluster, Distributed, Utility)</span>
+              </a>
+              <a href="#topic-2" onclick="loadTopic('topic-2')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">2</span>
+                <span>Introduction to Cloud Computing (Vision, Models, Characteristics & Challenges)</span>
+              </a>
+              <a href="#topic-3" onclick="loadTopic('topic-3')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">3</span>
+                <span>Cloud Computing vs Cluster vs Grid Computing (Detailed Matrix)</span>
+              </a>
+              <a href="#topic-4" onclick="loadTopic('topic-4')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">4</span>
+                <span>Migrating into a Cloud & The Seven-Step Migration Model</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Unit II -->
+          <div class="syllabus-unit-group">
+            <div class="flex items-center justify-between px-2 py-1 text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              <span>Unit-II: Virtualization & Capacity</span>
+              <span class="text-[10px] bg-slate-200 dark:bg-slate-700 px-1.5 py-0.2 rounded font-mono">6 Topics</span>
+            </div>
+            <div class="mt-1 space-y-1">
+              <a href="#topic-5" onclick="loadTopic('topic-5')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">5</span>
+                <span>Virtualization: Concepts & Characteristics</span>
+              </a>
+              <a href="#topic-6" onclick="loadTopic('topic-6')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">6</span>
+                <span>Taxonomy of Virtualization Techniques</span>
+              </a>
+              <a href="#topic-7" onclick="loadTopic('topic-7')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">7</span>
+                <span>Virtualization & Cloud Computing: Pros & Cons</span>
+              </a>
+              <a href="#topic-8" onclick="loadTopic('topic-8')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">8</span>
+                <span>Hypervisor Technology & Examples (Xen, VMware, Hyper-V)</span>
+              </a>
+              <a href="#topic-9" onclick="loadTopic('topic-9')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">9</span>
+                <span>Capacity Planning: Elasticity vs Scalability</span>
+              </a>
+              <a href="#topic-10" onclick="loadTopic('topic-10')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">10</span>
+                <span>Defining Baseline, Metrics, Ceilings & Scaling</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Unit III -->
+          <div class="syllabus-unit-group">
+            <div class="flex items-center justify-between px-2 py-1 text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              <span>Unit-III: SLA & Cloud Security</span>
+              <span class="text-[10px] bg-slate-200 dark:bg-slate-700 px-1.5 py-0.2 rounded font-mono">3 Topics</span>
+            </div>
+            <div class="mt-1 space-y-1">
+              <a href="#topic-11" onclick="loadTopic('topic-11')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">11</span>
+                <span>SLA Management (SLO, Types, Life Cycle & Cloud SLA)</span>
+              </a>
+              <a href="#topic-12" onclick="loadTopic('topic-12')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">12</span>
+                <span>Automated Policy-based Management</span>
+              </a>
+              <a href="#topic-13" onclick="loadTopic('topic-13')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">13</span>
+                <span>Securing Cloud Services (Data, Brokered Access, Tenancy & Compliance)</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Unit IV -->
+          <div class="syllabus-unit-group">
+            <div class="flex items-center justify-between px-2 py-1 text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              <span>Unit-IV: Cloud Platforms in Industry</span>
+              <span class="text-[10px] bg-slate-200 dark:bg-slate-700 px-1.5 py-0.2 rounded font-mono">3 Topics</span>
+            </div>
+            <div class="mt-1 space-y-1">
+              <a href="#topic-14" onclick="loadTopic('topic-14')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">14</span>
+                <span>Amazon Web Services (EC2, S3, EBS, SQS/SNS Services)</span>
+              </a>
+              <a href="#topic-15" onclick="loadTopic('topic-15')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">15</span>
+                <span>Google AppEngine (Architecture, App Life Cycle, Cost Model)</span>
+              </a>
+              <a href="#topic-16" onclick="loadTopic('topic-16')" class="topic-link flex items-start gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-800 transition-colors">
+                <span class="w-5 h-5 rounded-md bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 text-[11px] font-bold">16</span>
+                <span>Microsoft Azure (Concepts, SQL Azure, Azure Platform Appliance)</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- Sidebar backdrop overlay for mobile -->
+      <div id="sidebar-backdrop" class="fixed inset-0 bg-slate-900/50 z-20 hidden lg:hidden"></div>
+
+      <!-- ==================== MAIN CONTENT: STUDY NOTES VIEWER ==================== -->
+      <main class="flex-1 w-full min-w-0">
+        
+        <!-- Action bar above the note -->
+        <div class="mb-4 flex flex-wrap items-center justify-between gap-3 bg-white dark:bg-slate-800 p-3.5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm no-print">
+          <!-- Breadcrumb -->
+          <div class="flex items-center gap-2 text-xs font-medium text-slate-500 dark:text-slate-400">
+            <span class="text-blue-600 dark:text-blue-400 font-semibold">UGCA1936</span>
+            <span>/</span>
+            <span id="breadcrumb-unit">Unit-I</span>
+            <span>/</span>
+            <span id="breadcrumb-topic" class="text-slate-800 dark:text-slate-200 font-medium truncate max-w-[200px] sm:max-w-xs">Overview of Computing Paradigm</span>
+          </div>
+
+          <!-- Utility buttons -->
+          <div class="flex items-center gap-2">
+            <button id="btn-copy" onclick="copyNotesContent()" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors" title="Copy Notes">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+              <span id="copy-text">Copy Notes</span>
+            </button>
+            <button onclick="window.print()" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-900/60 transition-colors" title="Print or Save PDF">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+              <span>Print / PDF</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Note Paper Card -->
+        <article id="notes-article" class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-6 sm:p-9 transition-all">
+          <div id="notes-content-container">
+            <!-- Dynamic Note Content Injected Here via JavaScript -->
+          </div>
+        </article>
+
+        <!-- Topic Bottom Pagination (Next & Previous) -->
+        <div class="mt-6 flex items-center justify-between gap-4 no-print">
+          <button id="prev-topic-btn" onclick="navigateTopic(-1)" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-semibold text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/60 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transition-all">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            <span class="text-left">
+              <span class="block text-[10px] uppercase font-normal text-slate-400">Previous</span>
+              <span id="prev-topic-name" class="hidden sm:inline">Overview</span>
+            </span>
+          </button>
+
+          <button id="next-topic-btn" onclick="navigateTopic(1)" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-semibold text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/60 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transition-all">
+            <span class="text-right">
+              <span class="block text-[10px] uppercase font-normal text-slate-400">Next</span>
+              <span id="next-topic-name" class="hidden sm:inline">Intro to Cloud</span>
+            </span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- ==================== ABOUT MODAL ==================== -->
+  <div id="about-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm hidden">
+    <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-700 transform transition-all">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-700">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold">☁️</div>
+          <h3 class="font-bold text-lg text-slate-900 dark:text-white">About EduCloud Portal</h3>
+        </div>
+        <button id="close-about-modal" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="py-4 space-y-3 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+        <p>
+          <strong class="text-slate-900 dark:text-white">EduCloud BCA Notes</strong> is an open-access academic companion designed specifically for Bachelor of Computer Applications (BCA) students.
+        </p>
+        <div class="p-3 rounded-xl bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-800/50 text-xs text-blue-900 dark:text-blue-200">
+          <p class="font-semibold mb-1">Featured Syllabus:</p>
+          <p><strong>Code:</strong> UGCA1936 | <strong>Subject:</strong> Cloud Computing (BCA Semester 5)</p>
+          <p class="mt-1">Prepared strictly according to standardized university syllabus guidelines, divided into Units I through IV with complete theoretical, architectural, and examination point-of-view notes.</p>
+        </div>
+        <ul class="list-disc list-inside space-y-1 text-xs">
+          <li>Interactive links for every single syllabus topic</li>
+          <li>Comprehensive, exam-oriented study materials</li>
+          <li>Comparative matrices, architectural breakdowns, and exam tips</li>
+          <li>One-click copy & printable format support</li>
+        </ul>
+      </div>
+      <div class="pt-3 border-t border-slate-200 dark:border-slate-700 flex justify-end">
+        <button id="close-about-modal-btn" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-medium text-xs">
+          Close & Study
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-4 py-2.5 rounded-xl shadow-lg text-xs font-medium flex items-center gap-2 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
+    <svg class="w-4 h-4 text-emerald-400 dark:text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+    <span id="toast-message">Notes copied to clipboard!</span>
+  </div>
+
+  <!-- ==================== DATABASE OF COMPREHENSIVE NOTES ==================== -->
+  <script>
+    const NOTES_DATA = {
+      'topic-1': {
+        unit: 'Unit-I',
+        unitTitle: 'Foundations & Computing Paradigm',
+        title: 'Overview of Computing Paradigm: Recent Trends in Computing',
+        subtopics: 'Grid Computing, Cluster Computing, Distributed Computing, Utility Computing, Cloud Computing',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-I • Topic 1</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Overview of Computing Paradigm</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Evolutionary path from localized mainframes to autonomous on-demand clouds.</p>
+            </div>
+
+            <section class="space-y-3">
+              <h3 class="text-lg font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-blue-600"></span> 1. What is a Computing Paradigm?
+              </h3>
+              <p class="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                A <strong>Computing Paradigm</strong> refers to the fundamental style, framework, or model of executing computations, organizing data, and providing computer services. Over the decades, computing has evolved from centralized Mainframe Computing to Personal Computing, Client-Server models, and ultimately modern <strong>Distributed, Grid, Utility, and Cloud architectures</strong>.
+              </p>
+            </section>
+
+            <section class="space-y-4">
+              <h3 class="text-lg font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-blue-600"></span> 2. Recent Trends in Computing
+              </h3>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Distributed Computing -->
+                <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-750 border border-slate-200 dark:border-slate-700">
+                  <div class="font-bold text-slate-900 dark:text-white text-sm mb-1 flex items-center gap-2">
+                    <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300 text-xs">A</span>
+                    Distributed Computing
+                  </div>
+                  <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                    A system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages. Key objective: Resource sharing, fault-tolerance, and concurrent execution across autonomous nodes.
+                  </p>
+                </div>
+
+                <!-- Cluster Computing -->
+                <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-750 border border-slate-200 dark:border-slate-700">
+                  <div class="font-bold text-slate-900 dark:text-white text-sm mb-1 flex items-center gap-2">
+                    <span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300 text-xs">B</span>
+                    Cluster Computing
+                  </div>
+                  <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                    A collection of tightly coupled, homogeneous computers (nodes) connected via a high-speed Local Area Network (LAN). They act as a single, unified high-performance machine (e.g., Beowulf clusters) for high-availability and scientific computation.
+                  </p>
+                </div>
+
+                <!-- Grid Computing -->
+                <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-750 border border-slate-200 dark:border-slate-700">
+                  <div class="font-bold text-slate-900 dark:text-white text-sm mb-1 flex items-center gap-2">
+                    <span class="px-2 py-0.5 rounded bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-300 text-xs">C</span>
+                    Grid Computing
+                  </div>
+                  <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                    A loosely coupled, heterogeneous collection of computer resources distributed geographically across multiple administrative domains. Often described as a "super virtual computer" executing federated batch jobs (e.g., SETI@home, CERN LHC data grid).
+                  </p>
+                </div>
+
+                <!-- Utility Computing -->
+                <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-750 border border-slate-200 dark:border-slate-700">
+                  <div class="font-bold text-slate-900 dark:text-white text-sm mb-1 flex items-center gap-2">
+                    <span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 text-xs">D</span>
+                    Utility Computing
+                  </div>
+                  <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                    A service provisioning model where computing resources (processing, storage, bandwidth) are packaged and metered like a traditional public utility (such as electricity or water) on a pure <em>pay-per-use</em> basis.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Cloud Computing Definition -->
+              <div class="p-4 rounded-xl bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900 text-xs text-slate-700 dark:text-slate-300">
+                <span class="font-bold text-blue-900 dark:text-blue-300 block mb-1">E. Cloud Computing (The Convergence)</span>
+                Cloud Computing represents the culmination of Cluster, Grid, and Utility computing, empowered by hardware virtualization. It provides on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort.
+              </div>
+            </section>
+
+            <section class="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900 text-xs">
+              <h4 class="font-bold text-amber-900 dark:text-amber-300 uppercase tracking-wider mb-1">Exam Takeaway & Tip</h4>
+              <p class="text-amber-800 dark:text-amber-200">
+                In exams, always draw the evolutionary timeline: <strong>Mainframe &rarr; Client-Server &rarr; Distributed &rarr; Cluster &rarr; Grid &rarr; Utility &rarr; Cloud</strong>. Emphasize that Cloud is <em>not</em> merely a new technology, but a business and architectural paradigm marrying virtualization with utility billing.
+              </p>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-2': {
+        unit: 'Unit-I',
+        unitTitle: 'Foundations & Computing Paradigm',
+        title: 'Introduction to Cloud Computing: Vision, Models, Characteristics & Challenges',
+        subtopics: 'NIST Definition, Delivery Models (IaaS, PaaS, SaaS), Deployment Models (Public, Private, Hybrid, Community), Benefits & Challenges',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-I • Topic 2</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Introduction to Cloud Computing</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Foundational definitions, SPI service tiers, deployment types, and trade-offs.</p>
+            </div>
+
+            <!-- NIST Definition -->
+            <div class="p-4 rounded-xl bg-slate-100 dark:bg-slate-750 border-l-4 border-blue-600 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+              <strong class="text-slate-900 dark:text-white block text-sm mb-1">Official NIST Definition (National Institute of Standards and Technology)</strong>
+              "Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction."
+            </div>
+
+            <!-- 5 Essential Characteristics -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">5 Essential Characteristics of Cloud Computing</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-blue-600 dark:text-blue-400 block mb-1">1. On-Demand Self-Service</strong>
+                  Users can unilaterally provision computing capabilities (CPU time, storage) without human intervention from the provider.
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-blue-600 dark:text-blue-400 block mb-1">2. Broad Network Access</strong>
+                  Capabilities are available over standard networks and accessed via heterogeneous thin/thick clients (mobile phones, laptops).
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-blue-600 dark:text-blue-400 block mb-1">3. Resource Pooling</strong>
+                  Multi-tenant model where physical and virtual resources are dynamically assigned according to consumer demand.
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-blue-600 dark:text-blue-400 block mb-1">4. Rapid Elasticity</strong>
+                  Resources can be elastically provisioned and scaled outwards or inward automatically with workload fluctuations.
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 sm:col-span-2 md:col-span-1">
+                  <strong class="text-blue-600 dark:text-blue-400 block mb-1">5. Measured Service</strong>
+                  Resource usage is monitored, controlled, reported, and billed transparently based on actual consumption (metering).
+                </div>
+              </div>
+            </section>
+
+            <!-- Delivery Models (SPI) -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">Cloud Delivery Models (The SPI Model)</h3>
+              <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs border-collapse border border-slate-200 dark:border-slate-700">
+                  <thead>
+                    <tr class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+                      <th class="p-2.5 border border-slate-200 dark:border-slate-700">Model</th>
+                      <th class="p-2.5 border border-slate-200 dark:border-slate-700">What is Provided?</th>
+                      <th class="p-2.5 border border-slate-200 dark:border-slate-700">User Manages</th>
+                      <th class="p-2.5 border border-slate-200 dark:border-slate-700">Examples</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-600 dark:text-slate-300">
+                    <tr>
+                      <td class="p-2.5 font-bold text-blue-600 dark:text-blue-400">IaaS (Infrastructure as a Service)</td>
+                      <td class="p-2.5">Raw compute, virtual machines, block storage, networking hardware.</td>
+                      <td class="p-2.5">OS, runtime, middleware, data, and applications.</td>
+                      <td class="p-2.5">Amazon EC2, Google Compute Engine, Azure VMs.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-2.5 font-bold text-indigo-600 dark:text-indigo-400">PaaS (Platform as a Service)</td>
+                      <td class="p-2.5">Development framework, runtime execution engine, web servers, databases.</td>
+                      <td class="p-2.5">Application code and configuration settings only.</td>
+                      <td class="p-2.5">AWS Elastic Beanstalk, Google AppEngine, Heroku.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-2.5 font-bold text-emerald-600 dark:text-emerald-400">SaaS (Software as a Service)</td>
+                      <td class="p-2.5">Complete, turnkey software application accessible via web browsers/APIs.</td>
+                      <td class="p-2.5">Nothing (only user-specific application data/settings).</td>
+                      <td class="p-2.5">Google Workspace, Microsoft 365, Salesforce.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <!-- Deployment Models -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">Cloud Deployment Models</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white">1. Public Cloud:</span> Infrastructure open for general public usage over the internet (Owned by AWS, Microsoft, etc.). Multi-tenant, cost-effective.
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white">2. Private Cloud:</span> Provisioned for exclusive use by a single organization. Maximum security and regulatory control; higher CapEx.
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white">3. Hybrid Cloud:</span> Composition of two or more distinct clouds (private + public) bound together by standardized technology enabling data/app portability (e.g. Cloud Bursting).
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white">4. Community Cloud:</span> Shared infrastructure by several organizations with shared concerns (e.g., government agencies, research institutions).
+                </div>
+              </div>
+            </section>
+
+            <!-- Benefits & Challenges -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+              <div class="p-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900">
+                <span class="font-bold text-emerald-800 dark:text-emerald-300 block mb-1">Key Benefits</span>
+                <ul class="list-disc list-inside space-y-1 text-slate-700 dark:text-slate-300">
+                  <li>CapEx to OpEx shift (no heavy upfront hardware costs)</li>
+                  <li>Infinite perceived scalability & elasticity</li>
+                  <li>Global availability and fast deployment</li>
+                  <li>Automatic software updates & reduced maintenance overhead</li>
+                </ul>
+              </div>
+              <div class="p-3.5 rounded-xl bg-rose-50 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900">
+                <span class="font-bold text-rose-800 dark:text-rose-300 block mb-1">Challenges Ahead</span>
+                <ul class="list-disc list-inside space-y-1 text-slate-700 dark:text-slate-300">
+                  <li>Security, privacy & data sovereignty concerns</li>
+                  <li>Vendor lock-in and migration friction</li>
+                  <li>Downtime risks & dependence on high-speed internet</li>
+                  <li>Compliance with stringent audits (GDPR, HIPAA)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        `
+      },
+
+      'topic-3': {
+        unit: 'Unit-I',
+        unitTitle: 'Foundations & Computing Paradigm',
+        title: 'Cloud Computing vs. Cluster Computing vs. Grid Computing',
+        subtopics: 'Comprehensive Comparison Matrix, Architectural Differences, Use Cases',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-I • Topic 3</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Cloud vs. Cluster vs. Grid Computing</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Deep-dive comparative analysis across hardware, coupling, economics, and architecture.</p>
+            </div>
+
+            <section class="space-y-3">
+              <p class="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                While all three paradigms execute workloads across multiple computing engines, their design philosophies, geographical distributions, and management models differ drastically.
+              </p>
+
+              <!-- Comparison Table -->
+              <div class="overflow-x-auto">
+                <table class="w-full text-xs text-left border-collapse border border-slate-200 dark:border-slate-700">
+                  <thead>
+                    <tr class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 font-bold">
+                      <th class="p-3 border border-slate-200 dark:border-slate-700">Parameter</th>
+                      <th class="p-3 border border-slate-200 dark:border-slate-700 text-blue-600 dark:text-blue-400">Cluster Computing</th>
+                      <th class="p-3 border border-slate-200 dark:border-slate-700 text-purple-600 dark:text-purple-400">Grid Computing</th>
+                      <th class="p-3 border border-slate-200 dark:border-slate-700 text-emerald-600 dark:text-emerald-400">Cloud Computing</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-600 dark:text-slate-300">
+                    <tr>
+                      <td class="p-3 font-semibold bg-slate-50 dark:bg-slate-850">Architecture</td>
+                      <td class="p-3">Tightly coupled nodes functioning as a single compute resource.</td>
+                      <td class="p-3">Loosely coupled, geographically distributed federated nodes.</td>
+                      <td class="p-3">Virtual pool of dynamically configurable multi-tenant resources.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-3 font-semibold bg-slate-50 dark:bg-slate-850">Hardware Homogeneity</td>
+                      <td class="p-3"><strong>Homogeneous</strong> (same OS, identical CPU architecture).</td>
+                      <td class="p-3"><strong>Heterogeneous</strong> (differing OS, hardware specs).</td>
+                      <td class="p-3"><strong>Heterogeneous</strong> hardware abstracted via Virtualization.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-3 font-semibold bg-slate-50 dark:bg-slate-850">Network Topology</td>
+                      <td class="p-3">Dedicated high-speed LAN / InfiniBand (low latency).</td>
+                      <td class="p-3">Internet / WAN across distinct institutional borders.</td>
+                      <td class="p-3">Standard Internet/Intranet through RESTful web APIs.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-3 font-semibold bg-slate-50 dark:bg-slate-850">Resource Allocation</td>
+                      <td class="p-3">Centralized scheduler (e.g. SLURM, PBS).</td>
+                      <td class="p-3">Decentralized / Collaborative resource brokers.</td>
+                      <td class="p-3">Centralized autonomic virtualization hypervisors & orchestrators.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-3 font-semibold bg-slate-50 dark:bg-slate-850">Cost & Billing Model</td>
+                      <td class="p-3">High initial Capital Expenditure (CapEx), private ownership.</td>
+                      <td class="p-3">Collaborative grant/consortium funded, project based.</td>
+                      <td class="p-3">Pure Operational Expenditure (OpEx), <strong>Pay-as-you-go</strong>.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-3 font-semibold bg-slate-50 dark:bg-slate-850">Key Use Cases</td>
+                      <td class="p-3">Weather modeling, aerodynamic simulations, seismic analysis.</td>
+                      <td class="p-3">CERN High Energy Physics, protein folding (Folding@Home).</td>
+                      <td class="p-3">Web applications, streaming, enterprise ERP, AI/ML APIs.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <div class="p-4 rounded-xl bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-900 text-xs">
+              <span class="font-bold text-blue-900 dark:text-blue-300 block mb-1">Key Examination Distinction</span>
+              Remember: Grid computing focused primarily on <em>job-based computing power federation</em> across academia, whereas Cloud computing introduced <em>service-oriented, virtualized, business-ready on-demand monetization</em>.
+            </div>
+          </div>
+        `
+      },
+
+      'topic-4': {
+        unit: 'Unit-I',
+        unitTitle: 'Foundations & Computing Paradigm',
+        title: 'Migrating into a Cloud: Approaches & The Seven-Step Model',
+        subtopics: 'Migration Strategies (Lift-and-Shift, Refactoring), The 7-Step Model of Migration Into a Cloud',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-I • Topic 4</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Migrating into a Cloud</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Systematic transformation from on-premises legacy environments into modern cloud infrastructure.</p>
+            </div>
+
+            <!-- Broad Approaches -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">1. Broad Approaches to Cloud Migration</h3>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-blue-600 dark:text-blue-400 block mb-1">Rehosting ("Lift-and-Shift")</strong>
+                  Moving applications and VMs directly from on-premise to IaaS without changing underlying code. Fast, minimal risk, but doesn't optimize for cloud-native efficiencies.
+                </div>
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-indigo-600 dark:text-indigo-400 block mb-1">Replatforming ("Lift-and-Reshape")</strong>
+                  Making a few basic cloud optimizations (e.g. replacing self-hosted MySQL with Amazon RDS) without changing core application architecture.
+                </div>
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-emerald-600 dark:text-emerald-400 block mb-1">Refactoring / Re-architecting</strong>
+                  Completely redesigning applications into microservices, containerization (Docker/Kubernetes), and serverless functions for maximum cloud elasticity.
+                </div>
+              </div>
+            </section>
+
+            <!-- 7-Step Model -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">2. The Seven-Step Model of Migration Into a Cloud</h3>
+              <p class="text-xs text-slate-600 dark:text-slate-400">A structured methodological framework for enterprise workload transition:</p>
+              
+              <div class="space-y-2.5">
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 flex items-start gap-3 text-xs">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[11px] shrink-0">1</span>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white">Conduct Cloud Migration Assessments:</strong>
+                    Evaluate business objectives, cost-benefit (TCO vs ROI), application dependencies, data sensitivity, and compliance mandates.
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 flex items-start gap-3 text-xs">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[11px] shrink-0">2</span>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white">Isolate the Dependencies:</strong>
+                    Map out all coupled libraries, database linkages, legacy APIs, network bandwidth requirements, and environmental variables.
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 flex items-start gap-3 text-xs">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[11px] shrink-0">3</span>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white">Map the Messaging & Communication:</strong>
+                    Determine communication patterns between modules. Implement message brokers (e.g., SQS, RabbitMQ) to handle latency over WAN.
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 flex items-start gap-3 text-xs">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[11px] shrink-0">4</span>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white">Design and Implement Automated Cloud Adaptation:</strong>
+                    Modify code wrappers and configure cloud APIs (e.g. AWS SDK, authentication, automated instance scaling scripts).
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 flex items-start gap-3 text-xs">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[11px] shrink-0">5</span>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white">Enterprise Validation & Rigorous Testing:</strong>
+                    Perform extensive load testing, latency benchmarking, data integrity verification, and failover/disaster recovery dry runs.
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 flex items-start gap-3 text-xs">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[11px] shrink-0">6</span>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white">Cut-over / Go-Live Migration:</strong>
+                    Switch DNS records and live user traffic to the cloud environment, typically utilizing blue-green or canary release strategies.
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 flex items-start gap-3 text-xs">
+                  <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-[11px] shrink-0">7</span>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white">Iterate, Optimize & Maintain:</strong>
+                    Monitor system metrics (CloudWatch, Prometheus), fine-tune auto-scaling thresholds, and optimize cloud billing and security policies.
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-5': {
+        unit: 'Unit-II',
+        unitTitle: 'Virtualization & Capacity Planning',
+        title: 'Virtualization: Introduction & Characteristics',
+        subtopics: 'Core Virtualization Concepts, Virtual Machine Monitor (VMM), Characteristics of Virtualized Environments',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-II • Topic 5</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Virtualization: Introduction & Characteristics</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">The foundational enabling technology powering modern multi-tenant cloud architectures.</p>
+            </div>
+
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">1. What is Virtualization?</h3>
+              <p class="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <strong>Virtualization</strong> is a technique of creating a virtual (rather than actual) representation of physical resources such as CPU, memory, storage disks, and network interfaces. It allows a single physical host machine to run multiple isolated execution environments (known as <strong>Virtual Machines or VMs</strong>) simultaneously.
+              </p>
+              <div class="p-3 rounded-xl bg-slate-100 dark:bg-slate-750 text-xs">
+                <strong>Virtual Machine Monitor (VMM) / Hypervisor:</strong> A specialized software, firmware, or hardware layer that intercepts hardware instructions, manages VM execution, and allocates underlying physical resources safely.
+              </div>
+            </section>
+
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">2. Key Characteristics of a Virtualized Environment</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-blue-600 dark:text-blue-400 block mb-1">A. Partitioning</span>
+                  Enables running multiple operating systems on a single physical host machine while cleanly partitioning available system resources.
+                </div>
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-blue-600 dark:text-blue-400 block mb-1">B. Isolation</span>
+                  Each Virtual Machine is completely isolated from others. A crash, security vulnerability, or malware infection inside one VM will not crash or contaminate neighboring VMs.
+                </div>
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-blue-600 dark:text-blue-400 block mb-1">C. Encapsulation</span>
+                  An entire virtual machine (OS, configurations, files, apps) is encapsulated into single disk image files (.vmdk, .vhd). This enables effortless backups, snapshotting, and cloning.
+                </div>
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-blue-600 dark:text-blue-400 block mb-1">D. Hardware Independence</span>
+                  VMs operate independently of underlying bare-metal hardware. A VM can be live-migrated from an Intel host server to an AMD host server seamlessly with zero downtime.
+                </div>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-6': {
+        unit: 'Unit-II',
+        unitTitle: 'Virtualization & Capacity Planning',
+        title: 'Taxonomy of Virtualization Techniques',
+        subtopics: 'Hardware/Full Virtualization, Para-virtualization, OS-Level Virtualization, Network & Storage Virtualization',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-II • Topic 6</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Taxonomy of Virtualization Techniques</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Classification of virtualization across abstraction layers, implementation depths, and subsystems.</p>
+            </div>
+
+            <section class="space-y-4 text-xs">
+              <!-- Full Virtualization -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-blue-600 dark:text-blue-400 mb-1">1. Full Virtualization (Hardware Emulation)</h4>
+                <p class="text-slate-700 dark:text-slate-300 mb-2 leading-relaxed">
+                  The hypervisor provides complete simulation of the underlying hardware. The guest Operating System runs unmodified and is completely unaware that it is running inside a virtual environment. Uses binary translation and hardware-assisted extensions (Intel VT-x, AMD-V).
+                </p>
+                <span class="text-[11px] text-slate-500">Examples: VMware ESXi, Microsoft Hyper-V, VirtualBox.</span>
+              </div>
+
+              <!-- Para-Virtualization -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-indigo-600 dark:text-indigo-400 mb-1">2. Para-Virtualization</h4>
+                <p class="text-slate-700 dark:text-slate-300 mb-2 leading-relaxed">
+                  The guest Operating System is explicitly <strong>modified</strong> to be aware of the hypervisor. Sensitive non-virtualizable CPU instructions are replaced with direct calls (Hypercalls) to the hypervisor, yielding significantly higher execution speed and lower overhead than full binary translation.
+                </p>
+                <span class="text-[11px] text-slate-500">Examples: Xen (Para-virtualized mode).</span>
+              </div>
+
+              <!-- OS Level Virtualization (Containers) -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-emerald-600 dark:text-emerald-400 mb-1">3. OS-Level Virtualization (Containerization)</h4>
+                <p class="text-slate-700 dark:text-slate-300 mb-2 leading-relaxed">
+                  Rather than virtualizing physical hardware, the host OS kernel itself is partitioned to run multiple isolated user-space instances (Containers). Extremely lightweight, near-zero startup delay, sharing the underlying kernel namespaces and cgroups.
+                </p>
+                <span class="text-[11px] text-slate-500">Examples: Docker, Linux Containers (LXC), OpenVZ.</span>
+              </div>
+
+              <!-- Storage & Network Virtualization -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-750">
+                  <h5 class="font-bold text-slate-900 dark:text-white mb-1">4. Storage Virtualization</h5>
+                  <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                    Pooling of physical storage from multiple network storage devices (SAN/NAS) into what appears to be a single centralized storage device managed centrally (e.g., Ceph, LVM).
+                  </p>
+                </div>
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-750">
+                  <h5 class="font-bold text-slate-900 dark:text-white mb-1">5. Network Virtualization (SDN / NV)</h5>
+                  <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                    Decoupling network control logic from physical switching hardware. Enables creation of software-defined overlay virtual networks, VLANs, and VXLAN switches.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-7': {
+        unit: 'Unit-II',
+        unitTitle: 'Virtualization & Capacity Planning',
+        title: 'Virtualization and Cloud Computing: Pros and Cons',
+        subtopics: 'Symbiotic Relationship, Server Consolidation, Architectural Advantages & Operational Drawbacks',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-II • Topic 7</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Virtualization and Cloud Computing</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Understanding the symbiotic bond, benefits of consolidation, and potential trade-offs.</p>
+            </div>
+
+            <section class="space-y-3 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">The Relationship</h3>
+              <p>
+                While Virtualization is a <strong>technology</strong> that manipulates hardware, Cloud Computing is a <strong>service delivery paradigm</strong> that delivers shared computing resources as a utility. Virtualization is the core engine inside Cloud Computing that makes multi-tenancy, dynamic elasticity, and rapid provisioning practical.
+              </p>
+            </section>
+
+            <!-- Pros and Cons -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+              <div class="p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900">
+                <span class="font-bold text-emerald-800 dark:text-emerald-300 text-sm block mb-2">Advantages (Pros)</span>
+                <ul class="space-y-2 text-slate-700 dark:text-slate-300">
+                  <li><strong>• Server Consolidation:</strong> Increases typical server CPU utilization from 10–15% up to 70–80%, drastically cutting power and real estate costs.</li>
+                  <li><strong>• Disaster Recovery & Live Migration:</strong> VMs can be snapshotted and moved across data centers without downtime.</li>
+                  <li><strong>• Cost Efficiency:</strong> Dramatic reduction in capital expenditure on physical servers.</li>
+                  <li><strong>• Rapid Deployment:</strong> Spin up fresh operating environments within seconds via pre-configured images.</li>
+                </ul>
+              </div>
+
+              <div class="p-4 rounded-xl bg-rose-50 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900">
+                <span class="font-bold text-rose-800 dark:text-rose-300 text-sm block mb-2">Disadvantages (Cons)</span>
+                <ul class="space-y-2 text-slate-700 dark:text-slate-300">
+                  <li><strong>• Performance Overhead:</strong> Emulation and hypercall context switching introduce a small CPU/I/O latency penalty.</li>
+                  <li><strong>• Single Point of Failure (Host Server):</strong> If the physical bare-metal host crashes, all guest VMs running on it crash unless high-availability clustering is active.</li>
+                  <li><strong>• VM Sprawl:</strong> Because VMs are easy to create, administrators often abandon unmonitored VMs that consume resources.</li>
+                  <li><strong>• Hypervisor Security Exploits:</strong> VM escape vulnerabilities allow attackers to break out of a guest VM to control the root hypervisor.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        `
+      },
+
+      'topic-8': {
+        unit: 'Unit-II',
+        unitTitle: 'Virtualization & Capacity Planning',
+        title: 'Hypervisor Technology Examples: Xen, VMware, Microsoft Hyper-V',
+        subtopics: 'Type-1 (Bare Metal) vs Type-2 (Hosted), Xen Architecture (Dom0/DomU), VMware vSphere, Hyper-V',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-II • Topic 8</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Hypervisor Technology & Industry Examples</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Type-1 vs Type-2 architectures and architectural deep dive into Xen, VMware, and Hyper-V.</p>
+            </div>
+
+            <!-- Type 1 vs Type 2 -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <span class="font-bold text-blue-600 dark:text-blue-400 block text-sm mb-1">Type-1 Hypervisor (Bare-Metal)</span>
+                Runs directly on the host computer's physical hardware without an underlying OS. Delivers highest performance, low latency, and enterprise-grade security.
+                <div class="mt-2 text-slate-500"><strong>Examples:</strong> Xen, VMware ESXi, Microsoft Hyper-V, KVM.</div>
+              </div>
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <span class="font-bold text-indigo-600 dark:text-indigo-400 block text-sm mb-1">Type-2 Hypervisor (Hosted)</span>
+                Runs as an application on top of an existing host operating system (e.g. Windows or macOS). Subject to host OS crashes and higher overhead.
+                <div class="mt-2 text-slate-500"><strong>Examples:</strong> Oracle VirtualBox, VMware Workstation, Parallels.</div>
+              </div>
+            </div>
+
+            <!-- Key Examples -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">Leading Enterprise Hypervisors</h3>
+              
+              <!-- Xen -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-xs space-y-2">
+                <div class="font-bold text-slate-900 dark:text-white text-sm flex items-center justify-between">
+                  <span>1. Xen Project Hypervisor</span>
+                  <span class="bg-blue-100 text-blue-800 dark:bg-blue-900/60 dark:text-blue-300 px-2 py-0.5 rounded text-[10px]">Open Source Bare Metal</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                  A pioneering bare-metal hypervisor used extensively by AWS EC2. Its architecture is split into two specialized domains:
+                </p>
+                <ul class="list-disc list-inside space-y-1 text-slate-600 dark:text-slate-300">
+                  <li><strong>Domain 0 (Dom0):</strong> The privileged control domain. Has direct hardware access, drives device I/O, and manages guest VM creation.</li>
+                  <li><strong>Domain U (DomU):</strong> The unprivileged guest virtual machines running customer workloads. Cannot access physical hardware directly.</li>
+                </ul>
+              </div>
+
+              <!-- VMware -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-xs space-y-2">
+                <div class="font-bold text-slate-900 dark:text-white text-sm flex items-center justify-between">
+                  <span>2. VMware ESXi (vSphere)</span>
+                  <span class="bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300 px-2 py-0.5 rounded text-[10px]">Proprietary Market Leader</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                  A tiny-footprint (~150 MB) bare-metal hypervisor. Integrates with vCenter Server to offer enterprise live-migration (VMotion), Distributed Resource Scheduler (DRS), and automated fault-tolerance.
+                </p>
+              </div>
+
+              <!-- Hyper-V -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-xs space-y-2">
+                <div class="font-bold text-slate-900 dark:text-white text-sm flex items-center justify-between">
+                  <span>3. Microsoft Hyper-V</span>
+                  <span class="bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300 px-2 py-0.5 rounded text-[10px]">Windows Server Native</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                  Uses microkernelized partitions: a root partition (which manages child partitions and device drivers) and multiple child partitions (guest VMs). Core underlying virtualization layer powering Microsoft Azure.
+                </p>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-9': {
+        unit: 'Unit-II',
+        unitTitle: 'Virtualization & Capacity Planning',
+        title: 'Capacity Planning: Elasticity vs Scalability',
+        subtopics: 'Defining Capacity Planning, Elasticity vs Scalability Deep Dive, Horizontal vs Vertical Scaling',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-II • Topic 9</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Capacity Planning: Elasticity vs Scalability</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Balancing resource provisioning against volatile consumer demand to prevent over/under-provisioning.</p>
+            </div>
+
+            <!-- Definition -->
+            <section class="space-y-2 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">1. What is Capacity Planning?</h3>
+              <p>
+                Capacity Planning is the systematic process of estimating the storage, computer hardware, network bandwidth, and infrastructure software needed over a future period of time to ensure that services meet predetermined Service Level Agreements (SLAs) without incurring unnecessary capital waste.
+              </p>
+            </section>
+
+            <!-- Elasticity vs Scalability Table -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">2. Crucial Distinction: Elasticity vs. Scalability</h3>
+              <div class="overflow-x-auto">
+                <table class="w-full text-xs text-left border-collapse border border-slate-200 dark:border-slate-700">
+                  <thead>
+                    <tr class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+                      <th class="p-2.5 border border-slate-200 dark:border-slate-700">Attribute</th>
+                      <th class="p-2.5 border border-slate-200 dark:border-slate-700 text-blue-600 dark:text-blue-400">Scalability</th>
+                      <th class="p-2.5 border border-slate-200 dark:border-slate-700 text-emerald-600 dark:text-emerald-400">Elasticity</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-600 dark:text-slate-300">
+                    <tr>
+                      <td class="p-2.5 font-bold">Core Concept</td>
+                      <td class="p-2.5">The structural <em>ability</em> of an architecture to handle increased workload by adding resources.</td>
+                      <td class="p-2.5">The autonomous <em>dynamism</em> of commissioning and decommissioning resources on-the-fly.</td>
+                    </tr>
+                    <tr>
+                      <td class="p-2.5 font-bold">Time Horizon</td>
+                      <td class="p-2.5">Long-term strategic planning (months to years; e.g., company user base growth).</td>
+                      <td class="p-2.5">Short-term, immediate adaptation (seconds, minutes, hours; e.g., flash sales, Black Friday).</td>
+                    </tr>
+                    <tr>
+                      <td class="p-2.5 font-bold">Contraction</td>
+                      <td class="p-2.5">Scalability traditionally focuses on growth (scaling UP or OUT).</td>
+                      <td class="p-2.5">Elasticity handles both <strong>scaling OUT and scaling IN</strong> (de-provisioning when demand falls).</td>
+                    </tr>
+                    <tr>
+                      <td class="p-2.5 font-bold">Driver</td>
+                      <td class="p-2.5">Engineered infrastructure headroom.</td>
+                      <td class="p-2.5">Autonomic cloud billing optimization (pay only for active load).</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <!-- Scaling Types -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+              <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <span class="font-bold text-slate-900 dark:text-white block mb-1">Scale-Up (Vertical Scaling)</span>
+                Adding more power (CPU cores, RAM, SSD storage) to an existing single server instance. Bound by physical hardware ceilings; requires server restart.
+              </div>
+              <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <span class="font-bold text-slate-900 dark:text-white block mb-1">Scale-Out (Horizontal Scaling)</span>
+                Adding more server instances into the resource pool behind a load balancer. Virtually limitless potential; ideal architecture for cloud computing.
+              </div>
+            </div>
+          </div>
+        `
+      },
+
+      'topic-10': {
+        unit: 'Unit-II',
+        unitTitle: 'Virtualization & Capacity Planning',
+        title: 'Defining Baseline and Metrics',
+        subtopics: 'Baseline Measurements, System Metrics, Load Testing, Resource Ceilings, Server & Instance Types, Network Capacity',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-II • Topic 10</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Defining Baseline and Metrics</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Quantifying workload performance, stress limits, and sizing instance parameters.</p>
+            </div>
+
+            <section class="space-y-3 text-xs leading-relaxed">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <h4 class="font-bold text-blue-600 dark:text-blue-400 text-sm mb-1">1. Baseline Measurements</h4>
+                  <p class="text-slate-600 dark:text-slate-300">
+                    A benchmark recording system performance during typical, steady-state operating conditions. Baselines serve as the reference standard against which anomalies, spikes, and degradation are identified.
+                  </p>
+                </div>
+                <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <h4 class="font-bold text-blue-600 dark:text-blue-400 text-sm mb-1">2. Core System Metrics</h4>
+                  <ul class="list-disc list-inside space-y-1 text-slate-600 dark:text-slate-300">
+                    <li><strong>CPU Utilization (%):</strong> Active core execution time</li>
+                    <li><strong>Memory Working Set:</strong> RAM utilization & swap rate</li>
+                    <li><strong>Disk I/O:</strong> IOPS (Input/Output per sec) and queue depth</li>
+                    <li><strong>Network Throughput:</strong> Packets/sec, latency & packet drop</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Load Testing & Resource Ceilings -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 space-y-2">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">3. Load Testing & Resource Ceilings</h4>
+                <p class="text-slate-600 dark:text-slate-300">
+                  <strong>Load Testing:</strong> Subjecting software to synthetic concurrent user loads to observe behavior under extreme conditions.
+                </p>
+                <p class="text-slate-600 dark:text-slate-300">
+                  <strong>Resource Ceilings:</strong> The absolute saturation boundary of a resource (e.g., 90% CPU threshold or maximum database connection limits) beyond which system latency degrades exponentially and errors spike.
+                </p>
+              </div>
+
+              <!-- Instance types and Network -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 space-y-2">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">4. Server & Instance Types Selection</h4>
+                <p class="text-slate-600 dark:text-slate-300">
+                  Cloud providers offer specialized VM families to match workload profiles:
+                </p>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1">
+                  <span class="p-2 rounded bg-slate-100 dark:bg-slate-700 text-center font-medium">General Purpose</span>
+                  <span class="p-2 rounded bg-slate-100 dark:bg-slate-700 text-center font-medium">Compute Optimized</span>
+                  <span class="p-2 rounded bg-slate-100 dark:bg-slate-700 text-center font-medium">Memory Optimized</span>
+                  <span class="p-2 rounded bg-slate-100 dark:bg-slate-700 text-center font-medium">Storage / GPU IOPS</span>
+                </div>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-11': {
+        unit: 'Unit-III',
+        unitTitle: 'SLA Management & Cloud Security',
+        title: 'SLA Management in Cloud Computing',
+        subtopics: 'Inspiration, Traditional Approaches to SLO, Types of SLA, SLA Life Cycle, SLA Management in Cloud',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-III • Topic 11</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">SLA Management in Cloud Computing</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Formal contractual commitments governing availability, quality of service, and enforcement.</p>
+            </div>
+
+            <!-- SLA Definition -->
+            <section class="space-y-3 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+              <div class="p-4 rounded-xl bg-slate-100 dark:bg-slate-750 border-l-4 border-blue-600">
+                <strong>Service Level Agreement (SLA):</strong> A legally binding formal contract between a Cloud Service Provider (CSP) and a cloud customer that defines the guaranteed performance standards, Service Level Objectives (SLOs), availability percentages (e.g. 99.99% uptime), responsibilities, and financial penalties/credits for SLA breaches.
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3">
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white block mb-0.5">SLO (Service Level Objective)</span>
+                  Measurable operational metrics that make up an SLA (e.g., API response latency &lt; 200ms, MTTR &lt; 1 hour).
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white block mb-0.5">SLI (Service Level Indicator)</span>
+                  The actual real-time telemetry measurement of compliance (e.g., current measured latency is 140ms).
+                </div>
+              </div>
+            </section>
+
+            <!-- Types of SLA -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">Types of Cloud SLAs</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                <div class="p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-blue-600 dark:text-blue-400 block mb-1">Customer-Based SLA</strong>
+                  Agreement for an individual customer group covering all cloud services used by that organization.
+                </div>
+                <div class="p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-indigo-600 dark:text-indigo-400 block mb-1">Service-Based SLA</strong>
+                  An identical SLA covering a specific service (e.g., AWS S3 99.99% availability) universally applicable to all customers.
+                </div>
+                <div class="p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong class="text-emerald-600 dark:text-emerald-400 block mb-1">Multi-Level SLA</strong>
+                  Hierarchical SLA addressing Corporate-level, Customer-level, and Service-level parameters simultaneously.
+                </div>
+              </div>
+            </section>
+
+            <!-- SLA Life Cycle -->
+            <section class="space-y-3">
+              <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">The SLA Life Cycle</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-5 gap-2 text-xs text-center font-medium">
+                <div class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">1. Contract Definition</div>
+                <div class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">2. Negotiation & Discovery</div>
+                <div class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">3. Execution & Provisioning</div>
+                <div class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">4. Real-time Monitoring</div>
+                <div class="p-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">5. Termination & Penalty</div>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-12': {
+        unit: 'Unit-III',
+        unitTitle: 'SLA Management & Cloud Security',
+        title: 'Automated Policy-based Management',
+        subtopics: 'Concept of Autonomic Computing, Policy Hierarchy (Action, Goal, Utility-based), Orchestration Engines',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-III • Topic 12</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Automated Policy-based Management</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Self-managing autonomous control loops (MAPE-K) ensuring system stability without manual intervention.</p>
+            </div>
+
+            <section class="space-y-3 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+              <p>
+                In massive cloud data centers with millions of virtual nodes, manual operator administration is impossible. <strong>Automated Policy-based Management (PBM)</strong> relies on predefined business rules and autonomic control algorithms to govern cloud environments automatically.
+              </p>
+
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800">
+                <span class="font-bold text-slate-900 dark:text-white block text-sm mb-1">The IBM MAPE-K Autonomic Loop</span>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center mt-2 font-mono">
+                  <div class="p-2 bg-white dark:bg-slate-700 rounded shadow-xs">M - Monitor</div>
+                  <div class="p-2 bg-white dark:bg-slate-700 rounded shadow-xs">A - Analyze</div>
+                  <div class="p-2 bg-white dark:bg-slate-700 rounded shadow-xs">P - Plan</div>
+                  <div class="p-2 bg-white dark:bg-slate-700 rounded shadow-xs">E - Execute</div>
+                </div>
+                <div class="text-[11px] text-slate-500 text-center mt-2">Driven by unified Knowledge (K) Base</div>
+              </div>
+
+              <div class="space-y-2 mt-4">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">Hierarchy of Policies:</h4>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong>Action Policies (Event-Condition-Action / ECA):</strong> "IF CPU &gt; 80% for 5 mins THEN provision 2 additional EC2 instances."
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong>Goal Policies:</strong> Specify desired states rather than discrete actions (e.g., "Maintain average response latency under 300ms at all times").
+                </div>
+                <div class="p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <strong>Utility Function Policies:</strong> Mathematical functions balancing trade-offs between performance and monetary operational cost.
+                </div>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-13': {
+        unit: 'Unit-III',
+        unitTitle: 'SLA Management & Cloud Security',
+        title: 'Securing Cloud Services: Data, Brokered Access, Tenancy & Compliance',
+        subtopics: 'Cloud Security Fundamentals, Brokered Cloud Storage Access, Storage Location & Multi-tenancy, Encryption, Auditing & Steps to Ensure Security',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-III • Topic 13</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Securing Cloud Services</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Comprehensive data safeguarding, identity brokerage, multi-tenancy isolation, and compliance standards.</p>
+            </div>
+
+            <!-- Brokered Access & Multi Tenancy -->
+            <section class="space-y-3 text-xs leading-relaxed">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <h4 class="font-bold text-blue-600 dark:text-blue-400 text-sm mb-1">1. Brokered Cloud Storage Access</h4>
+                  <p class="text-slate-600 dark:text-slate-300">
+                    Direct access to cloud storage buckets without intermediary validation is dangerous. A <em>Broker Gateway</em> authenticates the user, requests fine-grained short-lived tokens (e.g. AWS STS assume-role or pre-signed URLs), and delegates storage access with precise lease expiration times.
+                  </p>
+                </div>
+                <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <h4 class="font-bold text-indigo-600 dark:text-indigo-400 text-sm mb-1">2. Storage Location & Tenancy</h4>
+                  <p class="text-slate-600 dark:text-slate-300">
+                    <strong>Multi-tenancy:</strong> Multiple customers store records on shared physical SAN arrays separated logically. 
+                    <strong>Data Residency / Sovereignty:</strong> International laws (GDPR) require data of citizens to reside within specific national borders.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Encryption & Auditing -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 space-y-2">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">3. Cryptography & Compliance</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                  <div>
+                    <strong class="text-slate-900 dark:text-white block mb-0.5">Data in Transit:</strong>
+                    Secured via TLS 1.3 / HTTPS preventing man-in-the-middle eavesdropping.
+                  </div>
+                  <div>
+                    <strong class="text-slate-900 dark:text-white block mb-0.5">Data at Rest:</strong>
+                    Encrypted using AES-256 with Customer Master Keys managed through Key Management Services (KMS / HSM).
+                  </div>
+                </div>
+                <div class="pt-2 text-slate-600 dark:text-slate-300">
+                  <strong>Auditing & Compliance:</strong> Independent third-party attestations (SOC 2 Type II, ISO/IEC 27001, HIPAA) and tamper-proof immutable audit trails (AWS CloudTrail).
+                </div>
+              </div>
+
+              <!-- Steps to Ensure Security -->
+              <div class="p-4 rounded-xl border border-emerald-200 dark:border-emerald-900 bg-emerald-50 dark:bg-emerald-950/20">
+                <h4 class="font-bold text-emerald-800 dark:text-emerald-300 text-sm mb-1.5">Actionable Steps to Ensure Cloud Security</h4>
+                <ol class="list-decimal list-inside space-y-1 text-slate-700 dark:text-slate-300">
+                  <li>Enforce Multi-Factor Authentication (MFA) and Least-Privilege IAM policies.</li>
+                  <li>Encrypt all sensitive datasets both in transit and at rest with envelope encryption.</li>
+                  <li>Implement Virtual Private Clouds (VPC) with public/private subnet isolation and network firewalls.</li>
+                  <li>Continually audit vulnerabilities with automated security scanners.</li>
+                </ol>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-14': {
+        unit: 'Unit-IV',
+        unitTitle: 'Cloud Platforms in Industry',
+        title: 'Industry Cloud Platforms: Amazon Web Services (AWS)',
+        subtopics: 'Compute Services (EC2, Lambda), Storage Services (S3, EBS), Communication Services (SQS, SNS), Additional Services',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-IV • Topic 14</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Amazon Web Services (AWS)</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Architecture and breakdown of core IaaS and PaaS services powering the largest public cloud.</p>
+            </div>
+
+            <section class="space-y-4 text-xs">
+              <!-- Compute -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-blue-600 dark:text-blue-400 mb-2 flex items-center gap-1.5">
+                  <span class="p-1 rounded bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300">🖥️</span>
+                  1. AWS Compute Services
+                </h4>
+                <ul class="space-y-2 text-slate-600 dark:text-slate-300">
+                  <li><strong>• Amazon EC2 (Elastic Compute Cloud):</strong> Resizable virtual servers with configurable vCPUs, RAM, OS, and security groups. Supports On-Demand, Reserved, and Spot instances.</li>
+                  <li><strong>• AWS Lambda (Serverless Compute):</strong> Event-driven execution running code snippets in response to triggers without server provisioning or management.</li>
+                  <li><strong>• Amazon ECS / EKS:</strong> Fully managed container orchestration for Docker and Kubernetes clusters.</li>
+                </ul>
+              </div>
+
+              <!-- Storage -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-indigo-600 dark:text-indigo-400 mb-2 flex items-center gap-1.5">
+                  <span class="p-1 rounded bg-indigo-100 dark:bg-indigo-900/60 text-indigo-700 dark:text-indigo-300">💾</span>
+                  2. AWS Storage Services
+                </h4>
+                <ul class="space-y-2 text-slate-600 dark:text-slate-300">
+                  <li><strong>• Amazon S3 (Simple Storage Service):</strong> Highly durable (99.999999999% - 11 9's) object storage organized into Buckets and Objects. Supports versioning and lifecycle tiers (Standard, Glacier).</li>
+                  <li><strong>• Amazon EBS (Elastic Block Store):</strong> Persistent, high-performance raw block-level volumes attached directly to running EC2 instances (acts like virtual hard drives/SSDs).</li>
+                  <li><strong>• Amazon EFS:</strong> Scalable elastic Network File System (NFS) shareable concurrently across multiple EC2 instances.</li>
+                </ul>
+              </div>
+
+              <!-- Communication -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-emerald-600 dark:text-emerald-400 mb-2 flex items-center gap-1.5">
+                  <span class="p-1 rounded bg-emerald-100 dark:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300">📡</span>
+                  3. AWS Communication & Messaging
+                </h4>
+                <ul class="space-y-2 text-slate-600 dark:text-slate-300">
+                  <li><strong>• Amazon SQS (Simple Queue Service):</strong> Fully managed asynchronous message queuing service for decoupling microservice components.</li>
+                  <li><strong>• Amazon SNS (Simple Notification Service):</strong> Pub/Sub (Publish/Subscribe) messaging coordinating fan-out notifications to mobile devices, emails, and HTTP endpoints.</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-15': {
+        unit: 'Unit-IV',
+        unitTitle: 'Cloud Platforms in Industry',
+        title: 'Google AppEngine: Architecture, Life Cycle & Cost Model',
+        subtopics: 'PaaS Model, GAE Architecture & Components, Application Life Cycle, Quotas & Cost Model',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-IV • Topic 15</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Google AppEngine (GAE)</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Google's foundational Platform-as-a-Service (PaaS) enabling frictionless web application hosting.</p>
+            </div>
+
+            <section class="space-y-4 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white mb-1">1. What is Google AppEngine?</h4>
+                <p>
+                  Google AppEngine is a premier <strong>PaaS (Platform as a Service)</strong> solution. Developers simply submit application code (Python, Java, Go, Node.js), and Google automatically handles provisioning, health checking, load balancing, and scaling from zero to thousands of instances without sysadmin involvement.
+                </p>
+              </div>
+
+              <!-- GAE Architecture -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 space-y-2">
+                <h4 class="font-bold text-slate-900 dark:text-white text-sm">2. Core Architecture & Concepts</h4>
+                <ul class="list-disc list-inside space-y-1 text-slate-600 dark:text-slate-300">
+                  <li><strong>Application:</strong> The root resource container bound to a specific Google Cloud region.</li>
+                  <li><strong>Services (Modules):</strong> Logical functional components of an application (e.g. frontend web service, backend analytics worker).</li>
+                  <li><strong>Versions:</strong> Immutable deployments allowing canary releases and seamless zero-downtime rollbacks.</li>
+                  <li><strong>Instances:</strong> The actual runtime sandboxes executing the code.</li>
+                </ul>
+              </div>
+
+              <!-- Lifecycle & Cost -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white block mb-1">3. Application Life Cycle</span>
+                  Local Development & Testing &rarr; Deployment via <code class="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-700 font-mono text-[11px] text-blue-600 dark:text-blue-400">gcloud app deploy</code> &rarr; Automated Health Checks & Dynamic Scaling &rarr; Version Routing &rarr; Traffic Splitting &rarr; Decommissioning.
+                </div>
+                <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                  <span class="font-bold text-slate-900 dark:text-white block mb-1">4. Cost Model & Quotas</span>
+                  Operates under a generous Free Tier quota daily. Beyond quotas, billing is metered on instance-hours (Standard environment scales to 0 when idle, costing zero dollars), network egress bandwidth, and Datastore read/write operations.
+                </div>
+              </div>
+            </section>
+          </div>
+        `
+      },
+
+      'topic-16': {
+        unit: 'Unit-IV',
+        unitTitle: 'Cloud Platforms in Industry',
+        title: 'Microsoft Azure: Core Concepts, SQL Azure & Platform Appliance',
+        subtopics: 'Azure Architecture (Resource Groups, Subscriptions), SQL Azure Database, Windows Azure Platform Appliance',
+        html: `
+          <div class="space-y-6">
+            <div class="border-b border-slate-200 dark:border-slate-700 pb-4">
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Unit-IV • Topic 16</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-1">Microsoft Azure</h2>
+              <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Enterprise cloud ecosystem, managed relational database services, and hybrid cloud appliances.</p>
+            </div>
+
+            <section class="space-y-4 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+              <!-- Core concepts -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-blue-600 dark:text-blue-400 mb-2">1. Azure Core Concepts</h4>
+                <ul class="space-y-1.5 text-slate-600 dark:text-slate-300">
+                  <li><strong>• Azure Resource Manager (ARM):</strong> The unified management framework allowing deployment and monitoring of resources via declarative JSON/Bicep templates.</li>
+                  <li><strong>• Resource Groups:</strong> Logical containers holding related Azure resources that share identical lifecycles and permissions.</li>
+                  <li><strong>• Regions & Availability Zones:</strong> Global data centers grouped geographically with independent power, cooling, and networking for high resilience.</li>
+                </ul>
+              </div>
+
+              <!-- SQL Azure -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-indigo-600 dark:text-indigo-400 mb-1">2. SQL Azure (Azure SQL Database)</h4>
+                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                  A fully managed, evergreen Platform-as-a-Service (PaaS) relational database engine. Offers automatic patching, automatic backup retention, built-in high availability (99.99%), AI-powered query performance tuning, and elastic scaling pools without requiring VM maintenance.
+                </p>
+              </div>
+
+              <!-- Azure Appliance -->
+              <div class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800">
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white mb-1">3. Windows Azure Platform Appliance (Azure Stack)</h4>
+                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                  A turnkey hardware-software hybrid cloud appliance that allows large enterprises and telecommunications providers to run Microsoft Azure services inside their own private on-premise data centers. Solves extreme regulatory, latency, and air-gapped security constraints.
+                </p>
+              </div>
+            </section>
+          </div>
+        `
+      }
+    };
+
+    // Keep track of topic sequence for Prev/Next buttons
+    const TOPIC_KEYS = Object.keys(NOTES_DATA);
+    let currentTopicIndex = 0;
+
+    // Load and render a specific topic
+    function loadTopic(topicId) {
+      const topic = NOTES_DATA[topicId];
+      if (!topic) return;
+
+      currentTopicIndex = TOPIC_KEYS.indexOf(topicId);
+
+      // Render content
+      document.getElementById('notes-content-container').innerHTML = topic.html;
+      
+      // Update breadcrumbs
+      document.getElementById('breadcrumb-unit').innerText = topic.unit;
+      document.getElementById('breadcrumb-topic').innerText = topic.title;
+
+      // Update active state in sidebar
+      document.querySelectorAll('.topic-link').forEach(link => {
+        const isActive = link.getAttribute('href') === `#${topicId}`;
+        link.classList.toggle('bg-blue-50', isActive);
+        link.classList.toggle('text-blue-600', isActive);
+        link.classList.toggle('font-bold', isActive);
+        link.classList.toggle('dark:bg-blue-900/40', isActive);
+        link.classList.toggle('dark:text-blue-300', isActive);
+      });
+
+      // Update pagination buttons
+      const prevBtn = document.getElementById('prev-topic-btn');
+      const nextBtn = document.getElementById('next-topic-btn');
+      const prevName = document.getElementById('prev-topic-name');
+      const nextName = document.getElementById('next-topic-name');
+
+      if (currentTopicIndex > 0) {
+        prevBtn.disabled = false;
+        prevName.innerText = NOTES_DATA[TOPIC_KEYS[currentTopicIndex - 1]].title.split(':')[0].substring(0, 22) + '...';
+      } else {
+        prevBtn.disabled = true;
+        prevName.innerText = 'Start of Syllabus';
+      }
+
+      if (currentTopicIndex < TOPIC_KEYS.length - 1) {
+        nextBtn.disabled = false;
+        nextName.innerText = NOTES_DATA[TOPIC_KEYS[currentTopicIndex + 1]].title.split(':')[0].substring(0, 22) + '...';
+      } else {
+        nextBtn.disabled = true;
+        nextName.innerText = 'End of Syllabus';
+      }
+
+      // Close mobile sidebar if open
+      closeMobileSidebar();
+
+      // Scroll to top of notes
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Previous / Next navigation helper
+    function navigateTopic(direction) {
+      const newIndex = currentTopicIndex + direction;
+      if (newIndex >= 0 && newIndex < TOPIC_KEYS.length) {
+        loadTopic(TOPIC_KEYS[newIndex]);
+      }
+    }
+
+    // Select semester from dropdown
+    function selectSemester(sem) {
+      const bca5View = document.getElementById('bca5-view');
+      const otherSemView = document.getElementById('other-sem-view');
+      const currentSemLabel = document.getElementById('current-sem-label');
+      const otherSemTitle = document.getElementById('other-sem-title');
+      const dropdownMenu = document.getElementById('notes-dropdown-menu');
+
+      // Close dropdown
+      dropdownMenu.classList.add('hidden');
+      document.getElementById('dropdown-arrow').classList.remove('rotate-180');
+
+      currentSemLabel.innerText = `BCA ${sem}`;
+
+      if (sem === 5) {
+        bca5View.classList.remove('hidden');
+        otherSemView.classList.add('hidden');
+      } else {
+        bca5View.classList.add('hidden');
+        otherSemView.classList.remove('hidden');
+        otherSemTitle.innerText = `BCA Semester ${sem} Notes`;
+      }
+    }
+
+    // Search filter
+    function setupSearch() {
+      const desktopSearch = document.getElementById('topic-search');
+      const mobileSearch = document.getElementById('topic-search-mobile');
+
+      function handleSearch(query) {
+        const q = query.toLowerCase().trim();
+        const links = document.querySelectorAll('.topic-link');
+        const groups = document.querySelectorAll('.syllabus-unit-group');
+
+        links.forEach(link => {
+          const text = link.innerText.toLowerCase();
+          const matches = text.includes(q);
+          link.style.display = matches ? 'flex' : 'none';
+        });
+
+        // Hide unit header if all children are hidden
+        groups.forEach(group => {
+          const visibleLinks = group.querySelectorAll('.topic-link[style*="display: flex"], .topic-link:not([style*="display: none"])');
+          group.style.display = (visibleLinks.length > 0 || !q) ? 'block' : 'none';
+        });
+      }
+
+      desktopSearch.addEventListener('input', (e) => {
+        if (mobileSearch) mobileSearch.value = e.target.value;
+        handleSearch(e.target.value);
+      });
+
+      if (mobileSearch) {
+        mobileSearch.addEventListener('input', (e) => {
+          desktopSearch.value = e.target.value;
+          handleSearch(e.target.value);
+        });
+      }
+    }
+
+    // Mobile sidebar controls
+    function setupMobileMenu() {
+      const toggle = document.getElementById('mobile-menu-toggle');
+      const close = document.getElementById('mobile-menu-close');
+      const backdrop = document.getElementById('sidebar-backdrop');
+      const sidebar = document.getElementById('syllabus-sidebar');
+
+      toggle.addEventListener('click', () => {
+        sidebar.classList.remove('-translate-x-full');
+        backdrop.classList.remove('hidden');
+      });
+
+      function closeMenu() {
+        sidebar.classList.add('-translate-x-full');
+        backdrop.classList.add('hidden');
+      }
+
+      if (close) close.addEventListener('click', closeMenu);
+      backdrop.addEventListener('click', closeMenu);
+    }
+
+    function closeMobileSidebar() {
+      const sidebar = document.getElementById('syllabus-sidebar');
+      const backdrop = document.getElementById('sidebar-backdrop');
+      if (sidebar && backdrop) {
+        sidebar.classList.add('-translate-x-full');
+        backdrop.classList.add('hidden');
+      }
+    }
+
+    // Dropdown toggle
+    function setupDropdown() {
+      const btn = document.getElementById('notes-dropdown-btn');
+      const menu = document.getElementById('notes-dropdown-menu');
+      const arrow = document.getElementById('dropdown-arrow');
+
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        menu.classList.toggle('hidden');
+        arrow.classList.toggle('rotate-180');
+      });
+
+      document.addEventListener('click', () => {
+        menu.classList.add('hidden');
+        arrow.classList.remove('rotate-180');
+      });
+    }
+
+    // Copy notes functionality
+    function copyNotesContent() {
+      const article = document.getElementById('notes-article');
+      if (!article) return;
+
+      const text = article.innerText;
+      
+      // Fallback-safe clipboard copy
+      const tempTextArea = document.createElement('textarea');
+      tempTextArea.value = text;
+      document.body.appendChild(tempTextArea);
+      tempTextArea.select();
+      try {
+        document.execCommand('copy');
+        showToast('Notes copied to clipboard!');
+      } catch (err) {
+        showToast('Could not copy notes automatically.');
+      }
+      document.body.removeChild(tempTextArea);
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-message');
+      toastMsg.innerText = msg;
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      setTimeout(() => {
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 3000);
+    }
+
+    // Dark Mode Toggle
+    function setupThemeToggle() {
+      const toggle = document.getElementById('theme-toggle');
+      const sunIcon = document.getElementById('theme-icon-sun');
+      const moonIcon = document.getElementById('theme-icon-moon');
+
+      // Check system or local preference
+      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+        sunIcon.classList.remove('hidden');
+        moonIcon.classList.add('hidden');
+      }
+
+      toggle.addEventListener('click', () => {
+        const isCurrentDark = document.documentElement.classList.toggle('dark');
+        sunIcon.classList.toggle('hidden', !isCurrentDark);
+        moonIcon.classList.toggle('hidden', isCurrentDark);
+      });
+    }
+
+    // About Modal Controls
+    function setupAboutModal() {
+      const aboutBtn = document.getElementById('about-btn');
+      const modal = document.getElementById('about-modal');
+      const close1 = document.getElementById('close-about-modal');
+      const close2 = document.getElementById('close-about-modal-btn');
+
+      const openModal = () => modal.classList.remove('hidden');
+      const closeModal = () => modal.classList.add('hidden');
+
+      aboutBtn.addEventListener('click', openModal);
+      close1.addEventListener('click', closeModal);
+      close2.addEventListener('click', closeModal);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+    }
+
+    // App Initialization
+    window.addEventListener('DOMContentLoaded', () => {
+      setupDropdown();
+      setupMobileMenu();
+      setupSearch();
+      setupThemeToggle();
+      setupAboutModal();
+
+      // Check URL Hash for initial topic or default to topic-1
+      const initialTopic = window.location.hash.replace('#', '') || 'topic-1';
+      loadTopic(NOTES_DATA[initialTopic] ? initialTopic : 'topic-1');
+    });
+  </script>
 </body>
 </html>
